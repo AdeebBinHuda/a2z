@@ -10,13 +10,16 @@ bool Armstrong(int n){
            sum +=pow(digit, sz);
            temp/=10;
      }
-
-     return sum==n;
+     return sum==n? true: false;
 
 }
 int main(){
      int n;
      cin>>n;
-     bool res= Armstrong(n);
-      cout<<res<<endl;
+     if(Armstrong(n)){
+          cout<<n<< " is an Armstrong number "<<endl;
+     }else{
+          cout<<n<< " is not an Armstrong number "<<endl;
+     }
+     return 0;
 }

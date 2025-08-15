@@ -1,5 +1,5 @@
 // Brute force approach
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -14,7 +14,7 @@ int main(){
      cout<<"The GCD of "<<n1 <<" and " <<n2<<" is "<<result<<endl;
      return 0;
 }
-
+*/
 // Euclidean algorithm.
 /*
 #include<bits/stdc++.h>
